@@ -1,0 +1,1250 @@
+{
+  "crisis_response": [
+    {
+      "id": "cr_01",
+      "tts_prompt": "The pot on the stove is boiling over. What should we do?",
+      "valid_answers": ["turn off", "stove", "stop", "remove", "pot", "burner"],
+      "fallback_button_correct": "Turn off the stove",
+      "fallback_button_incorrect": "Walk away",
+      "image_prompt": "A photorealistic illustration of a stainless steel pot on a stove, with water boiling vigorously over the sides and steam rising. The scene is a clean, modern kitchen. 16:9 aspect ratio, bright, clear lighting."
+    },
+    {
+      "id": "cr_02",
+      "tts_prompt": "You smell smoke in the house. What is the first thing to do?",
+      "valid_answers": ["smoke alarm", "get out", "leave", "exit", "call for help", "fire department"],
+      "fallback_button_correct": "Leave the house immediately",
+      "fallback_button_incorrect": "Look for the source of the smoke",
+      "image_prompt": "An atmospheric illustration of a living room with a light haze of smoke near the ceiling. No visible fire. The focus is on the feeling of alarm. 16:9 aspect ratio, slightly dimmed lighting."
+    },
+    {
+      "id": "cr_03",
+      "tts_prompt": "The doorbell is ringing. What should we do?",
+      "valid_answers": ["answer", "door", "look", "see who", "check"],
+      "fallback_button_correct": "Look through the peephole",
+      "fallback_button_incorrect": "Open the door immediately",
+      "image_prompt": "A clear illustration of a front door from the inside, with a hand reaching towards the peephole. Sunlight is visible under the door. 16:9 aspect ratio."
+    },
+    {
+      "id": "cr_04",
+      "tts_prompt": "The telephone is ringing. What should you do?",
+      "valid_answers": ["answer", "phone", "hello", "pick up"],
+      "fallback_button_correct": "Answer the phone",
+      "fallback_button_incorrect": "Unplug the phone",
+      "image_prompt": "A simple, clear illustration of a cordless home phone or a smartphone on a table, vibrating and with the screen lit up to show an incoming call. 16:9 aspect ratio."
+    },
+    {
+      "id": "cr_05",
+      "tts_prompt": "The smoke alarm is making a loud beeping noise. What does that mean?",
+      "valid_answers": ["fire", "smoke", "danger", "get out", "leave"],
+      "fallback_button_correct": "There might be a fire. Get out.",
+      "fallback_button_incorrect": "The battery is low.",
+      "image_prompt": "An illustration of a white, round smoke detector on a ceiling, with a red light flashing. Sound wave icons emanate from it. 16:9 aspect ratio."
+    },
+    {
+      "id": "cr_06",
+      "tts_prompt": "You've spilled a glass of water on the floor. What should we do?",
+      "valid_answers": ["clean", "wipe", "towel", "mop", "dry"],
+      "fallback_button_correct": "Wipe it up with a towel",
+      "fallback_button_incorrect": "Leave it to dry on its own",
+      "image_prompt": "A top-down view illustration of a clear puddle of water on a wooden floor, with a glass lying on its side nearby. 16:9 aspect ratio, realistic."
+    },
+    {
+      "id": "cr_07",
+      "tts_prompt": "You suddenly feel very dizzy and unsteady. What is a safe thing to do right now?",
+      "valid_answers": ["sit down", "lie down", "hold on", "call for help"],
+      "fallback_button_correct": "Sit down in a nearby chair",
+      "fallback_button_incorrect": "Try to walk it off",
+      "image_prompt": "An illustration from a first-person perspective, with the edges of the image blurry and swirling to indicate dizziness. A sturdy armchair is in clear focus in front. 16:9 aspect ratio."
+    },
+    {
+      "id": "cr_08",
+      "tts_prompt": "A glass has dropped and shattered on the floor. What should we do?",
+      "valid_answers": ["clean", "sweep", "broom", "dustpan", "careful"],
+      "fallback_button_correct": "Carefully sweep up the pieces",
+      "fallback_button_incorrect": "Pick up the pieces with bare hands",
+      "image_prompt": "An illustration of broken shards of a clear glass on a kitchen tile floor. A broom and dustpan are visible to the side. 16:9 aspect ratio, sharp focus."
+    },
+    {
+      "id": "cr_09",
+      "tts_prompt": "The toilet is overflowing onto the floor. What should we do first?",
+      "valid_answers": ["turn off water", "valve", "stop water", "plumber"],
+      "fallback_button_correct": "Turn off the water valve behind the toilet",
+      "fallback_button_incorrect": "Keep flushing it",
+      "image_prompt": "An illustration of a white toilet with water spilling over the rim onto a tiled floor. A hand is reaching for the small valve on the wall behind it. 16:9 aspect ratio."
+    },
+    {
+      "id": "cr_10",
+      "tts_prompt": "The lights in the house just went out. What should we find?",
+      "valid_answers": ["flashlight", "torch", "candle", "phone light"],
+      "fallback_button_correct": "Find a flashlight",
+      "fallback_button_incorrect": "Start flipping all the light switches",
+      "image_prompt": "An illustration of a dark room, with the silhouette of furniture. A single, bright beam of light from a flashlight cuts through the darkness. 16:9 aspect ratio."
+    },
+    {
+      "id": "cr_11",
+      "tts_prompt": "You feel a sudden, sharp pain in your chest. What is the most important thing to do?",
+      "valid_answers": ["call for help", "emergency", "911", "doctor", "ambulance"],
+      "fallback_button_correct": "Call for emergency help",
+      "fallback_button_incorrect": "Wait for it to go away",
+      "image_prompt": "An illustration of a senior person's hand clutching their chest. Their face shows concern. The background is simple and non-distracting. 16:9 aspect ratio."
+    },
+    {
+      "id": "cr_12",
+      "tts_prompt": "A stranger is at the door and wants to come in to check your meter. What should you do?",
+      "valid_answers": ["ask for id", "identification", "don't open", "call company"],
+      "fallback_button_correct": "Ask to see their ID badge",
+      "fallback_button_incorrect": "Let them in right away",
+      "image_prompt": "An illustration seen through a peephole, showing a person in a generic uniform standing on a porch. 16:9 aspect ratio."
+    },
+    {
+      "id": "cr_13",
+      "tts_prompt": "The microwave is sparking inside. What should you do immediately?",
+      "valid_answers": ["stop", "unplug", "turn off", "open door"],
+      "fallback_button_correct": "Stop it and unplug it",
+      "fallback_button_incorrect": "Let it finish cooking",
+      "image_prompt": "An illustration of a microwave oven with bright, electric sparks visible inside through the glass door. A plate of food is on the turntable. 16:9 aspect ratio."
+    },
+    {
+      "id": "cr_14",
+      "tts_prompt": "The toast is stuck and the toaster is starting to smoke. What should we do?",
+      "valid_answers": ["unplug", "stop", "turn off"],
+      "fallback_button_correct": "Unplug the toaster first",
+      "fallback_button_incorrect": "Use a metal fork to get the toast out",
+      "image_prompt": "An illustration of a kitchen toaster with wisps of dark smoke coming out of the slots. A hand is reaching for the wall plug behind it. 16:9 aspect ratio."
+    },
+    {
+      "id": "cr_15",
+      "tts_prompt": "You've cut your finger while chopping vegetables. What's the first step?",
+      "valid_answers": ["pressure", "clean", "wash", "bandage", "plaster"],
+      "fallback_button_correct": "Apply pressure with a clean cloth",
+      "fallback_button_incorrect": "Keep chopping",
+      "image_prompt": "A close-up illustration of a finger with a small cut, with another hand applying pressure using a clean paper towel. A cutting board with vegetables is in the background. 16:9 aspect ratio."
+    },
+    {
+      "id": "cr_16",
+      "tts_prompt": "The bathtub is almost full and you forgot to turn it off. What should you do?",
+      "valid_answers": ["turn off", "water", "faucet", "taps", "stop"],
+      "fallback_button_correct": "Turn off the water",
+      "fallback_button_incorrect": "Open the drain and leave the water running",
+      "image_prompt": "An illustration of a bathtub filled almost to the brim, with water still running from the faucet. 16:9 aspect ratio, bright bathroom setting."
+    },
+    {
+      "id": "cr_17",
+      "tts_prompt": "You are about to leave, but you can't find your house keys. What should you do?",
+      "valid_answers": ["look", "search", "think", "retrace steps"],
+      "fallback_button_correct": "Think about where you last had them",
+      "fallback_button_incorrect": "Leave the door unlocked",
+      "image_prompt": "An illustration of a small entry table with a bowl, a wallet, and mail, but no keys. A thought bubble is above the scene with a question mark inside. 16:9 aspect ratio."
+    },
+    {
+      "id": "cr_18",
+      "tts_prompt": "You feel very cold and can't stop shivering. What would help?",
+      "valid_answers": ["blanket", "sweater", "heater", "warm drink"],
+      "fallback_button_correct": "Get a warm blanket",
+      "fallback_button_incorrect": "Open a window for fresh air",
+      "image_prompt": "An illustration of a person sitting in a chair, wrapped in a thick, cozy blanket and shivering slightly. 16:9 aspect ratio, warm indoor lighting."
+    },
+    {
+      "id": "cr_19",
+      "tts_prompt": "You feel very hot and are sweating, even though you are resting. What should you do?",
+      "valid_answers": ["drink water", "cool down", "fan", "remove layer"],
+      "fallback_button_correct": "Drink a glass of cool water",
+      "fallback_button_incorrect": "Put on a sweater",
+      "image_prompt": "An illustration of a person sitting indoors, fanning themselves with a magazine and beads of sweat on their forehead. A glass of water is on a table nearby. 16:9 aspect ratio."
+    },
+    {
+      "id": "cr_20",
+      "tts_prompt": "The TV remote isn't working. What is the first thing to check?",
+      "valid_answers": ["batteries", "point", "aim"],
+      "fallback_button_correct": "Check the batteries",
+      "fallback_button_incorrect": "Hit the remote against the table",
+      "image_prompt": "A close-up illustration of the back of a TV remote control with the battery cover removed, showing two batteries inside. 16:9 aspect ratio."
+    },
+    {
+      "id": "cr_21",
+      "tts_prompt": "You are standing outside your front door and realize you are locked out. What can you do?",
+      "valid_answers": ["call", "neighbor", "spare key", "family"],
+      "fallback_button_correct": "Call a family member or neighbor for help",
+      "fallback_button_incorrect": "Try to break a window",
+      "image_prompt": "An illustration of a person standing on their front porch, looking at their front door with a concerned expression. They are holding a phone. 16:9 aspect ratio."
+    },
+    {
+      "id": "cr_22",
+      "tts_prompt": "The dog is standing by the door and whining. What does it probably need?",
+      "valid_answers": ["outside", "walk", "potty", "out"],
+      "fallback_button_correct": "Take the dog outside",
+      "fallback_button_incorrect": "Tell it to go lie down",
+      "image_prompt": "An illustration of a friendly dog (e.g., a golden retriever) sitting by a closed door, looking expectantly towards the door handle. 16:9 aspect ratio."
+    },
+    {
+      "id": "cr_23",
+      "tts_prompt": "A delivery person brings a package you were not expecting. What should you do?",
+      "valid_answers": ["don't accept", "refuse", "return to sender", "ask"],
+      "fallback_button_correct": "Ask who it's from before accepting",
+      "fallback_button_incorrect": "Accept it and open it immediately",
+      "image_prompt": "An illustration of a person at their doorway looking at a delivery driver holding a cardboard box. The person has a questioning look. 16:9 aspect ratio."
+    },
+    {
+      "id": "cr_24",
+      "tts_prompt": "The kitchen sink is full of water and won't drain. What should we do?",
+      "valid_answers": ["stop water", "don't use", "plunger", "plumber"],
+      "fallback_button_correct": "Stop running more water in the sink",
+      "fallback_button_incorrect": "Turn the water on higher to force it down",
+      "image_prompt": "An illustration of a kitchen sink filled to the top with murky water and dirty dishes. The faucet is off. 16:9 aspect ratio."
+    },
+    {
+      "id": "cr_25",
+      "tts_prompt": "You hear a loud crash outside your window in the middle of the night. What should you do?",
+      "valid_answers": ["look carefully", "be cautious", "don't go outside", "call police"],
+      "fallback_button_correct": "Look carefully through the window first",
+      "fallback_button_incorrect": "Run outside to see what happened",
+      "image_prompt": "An illustration of a person cautiously peeking through the blinds of a window into a dark, moonlit yard. 16:9 aspect ratio."
+    },
+    {
+      "id": "cr_26",
+      "tts_prompt": "You are walking in your neighborhood but suddenly feel lost. What should you do?",
+      "valid_answers": ["ask for help", "call someone", "find landmark", "use phone"],
+      "fallback_button_correct": "Find a safe place and call someone you trust",
+      "fallback_button_incorrect": "Keep walking until you recognize something",
+      "image_prompt": "An illustration of a person standing at a suburban street corner, looking around with a confused expression. The street signs are visible but generic. 16:9 aspect ratio."
+    },
+    {
+      "id": "cr_27",
+      "tts_prompt": "You are at a store and realize your wallet is missing. What should you do first?",
+      "valid_answers": ["retrace steps", "call bank", "cancel cards", "report"],
+      "fallback_button_correct": "Retrace your steps in the store",
+      "fallback_button_incorrect": "Accuse the cashier of taking it",
+      "image_prompt": "An illustration of a person standing at a checkout counter, looking into an empty handbag or pocket with a worried expression. 16:9 aspect ratio."
+    },
+    {
+      "id": "cr_28",
+      "tts_prompt": "You are at a crosswalk and the light is red. What should you do?",
+      "valid_answers": ["wait", "stop", "don't cross"],
+      "fallback_button_correct": "Wait for the green light or 'Walk' signal",
+      "fallback_button_incorrect": "Cross the street if there are no cars",
+      "image_prompt": "A clear illustration of a pedestrian traffic signal showing a red, raised hand symbol. A person is shown waiting patiently on the curb. 16:9 aspect ratio."
+    },
+    {
+      "id": "cr_29",
+      "tts_prompt": "The food in the oven is starting to burn and smoke. What should we do?",
+      "valid_answers": ["turn off", "oven", "take out", "remove"],
+      "fallback_button_correct": "Turn off the oven and open a window",
+      "fallback_button_incorrect": "Let it cook a little longer",
+      "image_prompt": "An illustration of an open oven door, with smoke coming out. A burnt casserole dish is visible inside. A hand wearing an oven mitt is reaching for the controls. 16:9 aspect ratio."
+    },
+    {
+      "id": "cr_30",
+      "tts_prompt": "You receive an email that says you won a prize, but you need to give your bank details. What should you do?",
+      "valid_answers": ["delete", "ignore", "scam", "spam", "don't reply"],
+      "fallback_button_correct": "Delete the email; it is likely a scam",
+      "fallback_button_incorrect": "Reply with your bank information",
+      "image_prompt": "An illustration of a laptop screen showing an email with a flashy 'You've Won!' message and fields asking for personal information. A large red 'X' is drawn over it. 16:9 aspect ratio."
+    },
+    {
+      "id": "cr_31",
+      "tts_prompt": "You've run out of your important daily medication. What should you do?",
+      "valid_answers": ["call pharmacy", "refill", "doctor", "chemist"],
+      "fallback_button_correct": "Call the pharmacy for a refill",
+      "fallback_button_incorrect": "Skip taking it for a few days",
+      "image_prompt": "An illustration of an empty orange prescription bottle held in a hand. A calendar is visible in the background. 16:9 aspect ratio."
+    },
+    {
+      "id": "cr_32",
+      "tts_prompt": "The car is making a strange noise and the 'check engine' light is on. What should you do?",
+      "valid_answers": ["pull over", "stop safely", "mechanic", "call for help"],
+      "fallback_button_correct": "Pull over safely and call for assistance",
+      "fallback_button_incorrect": "Turn up the radio and keep driving",
+      "image_prompt": "An illustration of a car's dashboard with the 'Check Engine' light illuminated in bright orange. The driver's hands are on the steering wheel. 16:9 aspect ratio."
+    },
+    {
+      "id": "cr_33",
+      "tts_prompt": "You are about to take your medicine, but the pills look different than usual. What should you do?",
+      "valid_answers": ["don't take", "call pharmacist", "check", "doctor", "ask"],
+      "fallback_button_correct": "Call the pharmacist to check",
+      "fallback_button_incorrect": "Take them anyway",
+      "image_prompt": "A close-up illustration of a hand holding a prescription bottle in one hand and two pills of a different color/shape in the other palm, with a questioning look. 16:9 aspect ratio."
+    }
+  ],
+  "logical_sequencing": [
+    {
+      "id": "ls_01",
+      "scenario_name": "Making a Cup of Tea",
+      "steps": [
+        {
+          "step_number": 1,
+          "description": "Boil water in a kettle.",
+          "image_prompt": "Step 1: A clear, simple illustration of an electric kettle on a kitchen counter, with steam coming out of the spout. 16:9 aspect ratio, bright."
+        },
+        {
+          "step_number": 2,
+          "description": "Put a tea bag in a mug.",
+          "image_prompt": "Step 2: A close-up illustration of a hand placing a tea bag into a white ceramic mug. 16:9 aspect ratio, clear."
+        },
+        {
+          "step_number": 3,
+          "description": "Pour the hot water into the mug.",
+          "image_prompt": "Step 3: An illustration showing hot water being poured from the kettle into the mug with the tea bag. 16:9 aspect ratio, dynamic."
+        }
+      ]
+    },
+    {
+      "id": "ls_02",
+      "scenario_name": "Washing Hands",
+      "steps": [
+        {
+          "step_number": 1,
+          "description": "Wet your hands with water.",
+          "image_prompt": "Step 1: A close-up illustration of hands under a running faucet in a clean sink. 16:9 aspect ratio, photorealistic."
+        },
+        {
+          "step_number": 2,
+          "description": "Lather your hands with soap.",
+          "image_prompt": "Step 2: A close-up illustration of hands rubbing together with a rich soap lather. 16:9 aspect ratio, clean."
+        },
+        {
+          "step_number": 3,
+          "description": "Dry your hands with a towel.",
+          "image_prompt": "Step 3: A close-up illustration of hands being dried with a clean, fluffy towel. 16:9 aspect ratio, soft texture."
+        }
+      ]
+    },
+    {
+      "id": "ls_03",
+      "scenario_name": "Brushing Teeth",
+      "steps": [
+        {
+          "step_number": 1,
+          "description": "Put toothpaste on the toothbrush.",
+          "image_prompt": "Step 1: A close-up illustration of a tube of toothpaste squeezing a strip of paste onto the bristles of a toothbrush. 16:9 aspect ratio, macro view."
+        },
+        {
+          "step_number": 2,
+          "description": "Brush your teeth thoroughly.",
+          "image_prompt": "Step 2: An illustration of a person brushing their front teeth, with a focus on the toothbrush and mouth area. 16:9 aspect ratio, clear action."
+        },
+        {
+          "step_number": 3,
+          "description": "Rinse your mouth with water.",
+          "image_prompt": "Step 3: An illustration of a person spitting into a sink after rinsing their mouth. A cup of water is nearby. 16:9 aspect ratio, clean."
+        }
+      ]
+    },
+    {
+      "id": "ls_04",
+      "scenario_name": "Making Toast",
+      "steps": [
+        {
+          "step_number": 1,
+          "description": "Put slices of bread into the toaster.",
+          "image_prompt": "Step 1: An illustration of hands inserting two slices of bread into the slots of a modern toaster. 16:9 aspect ratio, kitchen setting."
+        },
+        {
+          "step_number": 2,
+          "description": "Push the lever down to start toasting.",
+          "image_prompt": "Step 2: A close-up illustration of a finger pushing down the lever on the side of the toaster. 16:9 aspect ratio, focus on action."
+        },
+        {
+          "step_number": 3,
+          "description": "Take out the finished toast.",
+          "image_prompt": "Step 3: An illustration of two slices of golden-brown toast popping up from the toaster. 16:9 aspect ratio, satisfying."
+        }
+      ]
+    },
+    {
+      "id": "ls_05",
+      "scenario_name": "Sending a Letter",
+      "steps": [
+        {
+          "step_number": 1,
+          "description": "Put the letter inside an envelope.",
+          "image_prompt": "Step 1: An illustration of hands folding a letter and sliding it into a white envelope. 16:9 aspect ratio, desk setting."
+        },
+        {
+          "step_number": 2,
+          "description": "Put a stamp on the envelope.",
+          "image_prompt": "Step 2: A close-up illustration of a thumb pressing a postage stamp onto the top-right corner of an envelope. 16:9 aspect ratio, detailed."
+        },
+        {
+          "step_number": 3,
+          "description": "Put the envelope in a mailbox.",
+          "image_prompt": "Step 3: An illustration of a hand dropping a stamped envelope into the slot of a public red or blue mailbox. 16:9 aspect ratio, outdoor setting."
+        }
+      ]
+    },
+    {
+      "id": "ls_06",
+      "scenario_name": "Getting Dressed for a Cold Day",
+      "steps": [
+        {
+          "step_number": 1,
+          "description": "Put on a warm sweater.",
+          "image_prompt": "Step 1: An illustration of a person pulling a cozy wool sweater over their head. 16:9 aspect ratio, bedroom setting."
+        },
+        {
+          "step_number": 2,
+          "description": "Put on a heavy coat.",
+          "image_prompt": "Step 2: An illustration of a person putting their arms into the sleeves of a thick winter coat. 16:9 aspect ratio, clear action."
+        },
+        {
+          "step_number": 3,
+          "description": "Wrap a scarf around your neck.",
+          "image_prompt": "Step 3: A close-up illustration of hands wrapping a warm, knitted scarf around a person's neck. 16:9 aspect ratio, cozy."
+        }
+      ]
+    },
+    {
+      "id": "ls_07",
+      "scenario_name": "Making a Simple Sandwich",
+      "steps": [
+        {
+          "step_number": 1,
+          "description": "Lay out two slices of bread.",
+          "image_prompt": "Step 1: An illustration of two slices of bread lying side-by-side on a wooden cutting board. 16:9 aspect ratio, top-down view."
+        },
+        {
+          "step_number": 2,
+          "description": "Add your favorite filling, like cheese.",
+          "image_prompt": "Step 2: An illustration of a hand placing a slice of cheese onto one of the slices of bread. 16:9 aspect ratio, food prep."
+        },
+        {
+          "step_number": 3,
+          "description": "Put the other slice of bread on top.",
+          "image_prompt": "Step 3: An illustration of a hand placing the second slice of bread on top of the cheese to complete the sandwich. 16:9 aspect ratio, final step."
+        }
+      ]
+    },
+    {
+      "id": "ls_08",
+      "scenario_name": "Locking the Front Door",
+      "steps": [
+        {
+          "step_number": 1,
+          "description": "Close the door completely.",
+          "image_prompt": "Step 1: An illustration of a person pulling their front door shut, with a click sound effect icon. 16:9 aspect ratio, view from outside."
+        },
+        {
+          "step_number": 2,
+          "description": "Insert the key into the lock.",
+          "image_prompt": "Step 2: A close-up illustration of a hand inserting a house key into the keyhole of a door lock. 16:9 aspect ratio, detailed."
+        },
+        {
+          "step_number": 3,
+          "description": "Turn the key to lock the door.",
+          "image_prompt": "Step 3: A close-up illustration of a hand turning the key in the lock, with an arrow showing the direction of the turn. 16:9 aspect ratio, clear action."
+        }
+      ]
+    },
+    {
+      "id": "ls_09",
+      "scenario_name": "Taking a Pill",
+      "steps": [
+        {
+          "step_number": 1,
+          "description": "Pour a glass of water.",
+          "image_prompt": "Step 1: An illustration of a hand holding a glass under a faucet, filling it with water. 16:9 aspect ratio, kitchen or bathroom."
+        },
+        {
+          "step_number": 2,
+          "description": "Take one pill out of the bottle.",
+          "image_prompt": "Step 2: A close-up illustration of a pill bottle being tipped to drop a single pill into the palm of a hand. 16:9 aspect ratio, clear focus."
+        },
+        {
+          "step_number": 3,
+          "description": "Swallow the pill with the water.",
+          "image_prompt": "Step 3: An illustration of a person about to drink from the glass of water, with the pill on their tongue. 16:9 aspect ratio, side profile."
+        }
+      ]
+    },
+    {
+      "id": "ls_10",
+      "scenario_name": "Watering a Houseplant",
+      "steps": [
+        {
+          "step_number": 1,
+          "description": "Fill a watering can with water.",
+          "image_prompt": "Step 1: An illustration of a small watering can being filled with water from a kitchen tap. 16:9 aspect ratio, bright."
+        },
+        {
+          "step_number": 2,
+          "description": "Pour water onto the plant's soil.",
+          "image_prompt": "Step 2: An illustration of the watering can gently pouring water onto the soil of a potted plant. 16:9 aspect ratio, close-up."
+        },
+        {
+          "step_number": 3,
+          "description": "Wipe up any spills.",
+          "image_prompt": "Step 3: An illustration of a hand wiping a small puddle of water from the floor next to the plant pot with a cloth. 16:9 aspect ratio, clean."
+        }
+      ]
+    },
+    {
+      "id": "ls_11",
+      "scenario_name": "Preparing a Bowl of Cereal",
+      "steps": [
+        {
+          "step_number": 1,
+          "description": "Pour cereal into a bowl.",
+          "image_prompt": "Step 1: An illustration of a cereal box being tilted to pour cereal flakes into a white bowl. 16:9 aspect ratio, kitchen table."
+        },
+        {
+          "step_number": 2,
+          "description": "Pour milk over the cereal.",
+          "image_prompt": "Step 2: An illustration of a carton of milk being poured over the cereal in the bowl. 16:9 aspect ratio, dynamic splash."
+        },
+        {
+          "step_number": 3,
+          "description": "Eat with a spoon.",
+          "image_prompt": "Step 3: A close-up illustration of a spoon scooping up milk-soaked cereal from the bowl. 16:9 aspect ratio, appetizing."
+        }
+      ]
+    },
+    {
+      "id": "ls_12",
+      "scenario_name": "Using a Pod Coffee Maker",
+      "steps": [
+        {
+          "step_number": 1,
+          "description": "Place a mug on the tray.",
+          "image_prompt": "Step 1: An illustration of a hand placing a ceramic mug onto the drip tray of a pod coffee machine. 16:9 aspect ratio, modern kitchen."
+        },
+        {
+          "step_number": 2,
+          "description": "Insert a coffee pod and close the lid.",
+          "image_prompt": "Step 2: A close-up illustration of a hand inserting a small coffee pod into the designated slot on the machine. 16:9 aspect ratio, detailed."
+        },
+        {
+          "step_number": 3,
+          "description": "Press the 'brew' button.",
+          "image_prompt": "Step 3: A close-up illustration of a finger pressing a glowing 'brew' button on the coffee machine, with coffee starting to pour into the mug. 16:9 aspect ratio, action shot."
+        }
+      ]
+    },
+    {
+      "id": "ls_13",
+      "scenario_name": "Putting on Shoes and Socks",
+      "steps": [
+        {
+          "step_number": 1,
+          "description": "Put on your socks.",
+          "image_prompt": "Step 1: An illustration of a person sitting down and pulling a sock onto their foot. 16:9 aspect ratio, clear view."
+        },
+        {
+          "step_number": 2,
+          "description": "Slide your foot into your shoe.",
+          "image_prompt": "Step 2: An illustration of a sock-covered foot sliding into a comfortable walking shoe. 16:9 aspect ratio, side view."
+        },
+        {
+          "step_number": 3,
+          "description": "Tie the shoelaces.",
+          "image_prompt": "Step 3: A close-up illustration of hands tying the laces of the shoe into a neat bow. 16:9 aspect ratio, detailed."
+        }
+      ]
+    },
+    {
+      "id": "ls_14",
+      "scenario_name": "Getting the Mail",
+      "steps": [
+        {
+          "step_number": 1,
+          "description": "Walk to the mailbox.",
+          "image_prompt": "Step 1: An illustration of a person walking down a path towards a residential mailbox at the end of a driveway. 16:9 aspect ratio, sunny day."
+        },
+        {
+          "step_number": 2,
+          "description": "Open the mailbox door.",
+          "image_prompt": "Step 2: A close-up illustration of a hand opening the small door of a mailbox. 16:9 aspect ratio, focus on action."
+        },
+        {
+          "step_number": 3,
+          "description": "Take out the letters.",
+          "image_prompt": "Step 3: An illustration of a hand pulling a stack of letters out from the inside of the open mailbox. 16:9 aspect ratio, clear."
+        }
+      ]
+    },
+    {
+      "id": "ls_15",
+      "scenario_name": "Making the Bed",
+      "steps": [
+        {
+          "step_number": 1,
+          "description": "Straighten the top sheet.",
+          "image_prompt": "Step 1: An illustration of hands pulling a flat sheet taut over a mattress. 16:9 aspect ratio, bedroom setting."
+        },
+        {
+          "step_number": 2,
+          "description": "Pull the blanket or comforter up.",
+          "image_prompt": "Step 2: An illustration of hands pulling a large, fluffy comforter up towards the head of the bed. 16:9 aspect ratio, cozy."
+        },
+        {
+          "step_number": 3,
+          "description": "Place the pillows at the top.",
+          "image_prompt": "Step 3: An illustration of hands fluffing a pillow and placing it at the head of the neatly made bed. 16:9 aspect ratio, final touch."
+        }
+      ]
+    },
+    {
+      "id": "ls_16",
+      "scenario_name": "Answering the Phone",
+      "steps": [
+        {
+          "step_number": 1,
+          "description": "Hear the phone ringing.",
+          "image_prompt": "Step 1: An illustration of a smartphone on a table, screen lit up and vibrating with sound wave icons around it. 16:9 aspect ratio, clear."
+        },
+        {
+          "step_number": 2,
+          "description": "Pick up the phone and accept the call.",
+          "image_prompt": "Step 2: An illustration of a hand picking up the smartphone and a finger sliding the 'answer' icon across the screen. 16:9 aspect ratio, action shot."
+        },
+        {
+          "step_number": 3,
+          "description": "Bring the phone to your ear and say 'Hello'.",
+          "image_prompt": "Step 3: An illustration of a person holding the phone to their ear and speaking, with a speech bubble that says 'Hello?'. 16:9 aspect ratio, side profile."
+        }
+      ]
+    },
+    {
+      "id": "ls_17",
+      "scenario_name": "Peeling a Banana",
+      "steps": [
+        {
+          "step_number": 1,
+          "description": "Snap the stem at the top.",
+          "image_prompt": "Step 1: A close-up illustration of two hands holding a yellow banana, with one thumb about to snap the top stem. 16:9 aspect ratio, clear."
+        },
+        {
+          "step_number": 2,
+          "description": "Peel one section of the skin down.",
+          "image_prompt": "Step 2: An illustration of a hand pulling down the first strip of banana peel, revealing the fruit inside. 16:9 aspect ratio, satisfying."
+        },
+        {
+          "step_number": 3,
+          "description": "Peel the rest of the skin down.",
+          "image_prompt": "Step 3: An illustration of a fully peeled banana, with the peel hanging down like petals. 16:9 aspect ratio, ready to eat."
+        }
+      ]
+    },
+    {
+      "id": "ls_18",
+      "scenario_name": "Getting Ready to Read a Book",
+      "steps": [
+        {
+          "step_number": 1,
+          "description": "Choose a book from the shelf.",
+          "image_prompt": "Step 1: An illustration of a hand selecting a book from a well-lit bookshelf. 16:9 aspect ratio, cozy library feel."
+        },
+        {
+          "step_number": 2,
+          "description": "Put on your reading glasses.",
+          "image_prompt": "Step 2: An illustration of a person putting on a pair of reading glasses. 16:9 aspect ratio, close-up on face."
+        },
+        {
+          "step_number": 3,
+          "description": "Sit down and open the book to read.",
+          "image_prompt": "Step 3: An illustration of a person sitting comfortably in an armchair, with the selected book open in their lap. 16:9 aspect ratio, peaceful."
+        }
+      ]
+    },
+    {
+      "id": "ls_19",
+      "scenario_name": "Setting the Table for One",
+      "steps": [
+        {
+          "step_number": 1,
+          "description": "Place a placemat on the table.",
+          "image_prompt": "Step 1: An illustration of hands laying a woven placemat onto a wooden dining table. 16:9 aspect ratio, top-down view."
+        },
+        {
+          "step_number": 2,
+          "description": "Put a dinner plate in the center.",
+          "image_prompt": "Step 2: An illustration of hands placing a ceramic dinner plate in the middle of the placemat. 16:9 aspect ratio, top-down view."
+        },
+        {
+          "step_number": 3,
+          "description": "Place a fork on the left and a knife on the right.",
+          "image_prompt": "Step 3: An illustration showing the final table setting with a fork to the left of the plate and a knife to the right. 16:9 aspect ratio, top-down view."
+        }
+      ]
+    },
+    {
+      "id": "ls_20",
+      "scenario_name": "Using an ATM",
+      "steps": [
+        {
+          "step_number": 1,
+          "description": "Insert your bank card into the slot.",
+          "image_prompt": "Step 1: A close-up illustration of a hand inserting a bank card into the glowing card slot of an ATM. 16:9 aspect ratio, clear action."
+        },
+        {
+          "step_number": 2,
+          "description": "Cover the keypad and enter your PIN.",
+          "image_prompt": "Step 2: An illustration of one hand shielding the ATM keypad while the other hand's fingers type in a PIN. 16:9 aspect ratio, security focus."
+        },
+        {
+          "step_number": 3,
+          "description": "Choose your transaction, like 'Withdraw Cash'.",
+          "image_prompt": "Step 3: An illustration of the ATM screen with several options, and a finger pressing the 'Withdraw Cash' button. 16:9 aspect ratio, screen view."
+        }
+      ]
+    },
+    {
+      "id": "ls_21",
+      "scenario_name": "Washing a Single Dish",
+      "steps": [
+        {
+          "step_number": 1,
+          "description": "Squirt some dish soap onto a sponge.",
+          "image_prompt": "Step 1: A close-up illustration of a bottle of dish soap being squeezed onto a yellow sponge over a sink. 16:9 aspect ratio, bright."
+        },
+        {
+          "step_number": 2,
+          "description": "Scrub the dirty plate with the soapy sponge.",
+          "image_prompt": "Step 2: An illustration of hands scrubbing a dirty plate with the soapy sponge, creating suds. 16:9 aspect ratio, action shot."
+        },
+        {
+          "step_number": 3,
+          "description": "Rinse the soap off the plate with clean water.",
+          "image_prompt": "Step 3: An illustration of the clean, sparkling plate being rinsed under a stream of water from the faucet. 16:9 aspect ratio, clean."
+        }
+      ]
+    },
+    {
+      "id": "ls_22",
+      "scenario_name": "Using a Microwave",
+      "steps": [
+        {
+          "step_number": 1,
+          "description": "Place the food inside the microwave.",
+          "image_prompt": "Step 1: An illustration of a hand placing a microwave-safe dish of food onto the glass turntable inside an open microwave. 16:9 aspect ratio, clear."
+        },
+        {
+          "step_number": 2,
+          "description": "Close the door and set the time.",
+          "image_prompt": "Step 2: An illustration of a finger pressing buttons on the microwave's keypad to set the cooking time, e.g., '1:30'. 16:9 aspect ratio, close-up."
+        },
+        {
+          "step_number": 3,
+          "description": "Press the 'Start' button.",
+          "image_prompt": "Step 3: A close-up illustration of a finger pressing the 'Start' button, with the microwave light turning on inside. 16:9 aspect ratio, action shot."
+        }
+      ]
+    },
+    {
+      "id": "ls_23",
+      "scenario_name": "Making a Phone Call",
+      "steps": [
+        {
+          "step_number": 1,
+          "description": "Open the phone app and go to the keypad.",
+          "image_prompt": "Step 1: An illustration of a smartphone screen showing the phone app icon being tapped, then opening to the number keypad. 16:9 aspect ratio, screen view."
+        },
+        {
+          "step_number": 2,
+          "description": "Dial the phone number.",
+          "image_prompt": "Step 2: An illustration of a finger tapping out a phone number on the smartphone's on-screen keypad. 16:9 aspect ratio, close-up."
+        },
+        {
+          "step_number": 3,
+          "description": "Press the green 'Call' button.",
+          "image_prompt": "Step 3: An illustration of the finger moving to press the large green 'Call' icon at the bottom of the screen. 16:9 aspect ratio, final action."
+        }
+      ]
+    },
+    {
+      "id": "ls_24",
+      "scenario_name": "Getting Ready for a Walk",
+      "steps": [
+        {
+          "step_number": 1,
+          "description": "Put on comfortable walking shoes.",
+          "image_prompt": "Step 1: An illustration of a person sitting on a bench and tying the laces of a comfortable sneaker. 16:9 aspect ratio, bright."
+        },
+        {
+          "step_number": 2,
+          "description": "Grab your keys and wallet.",
+          "image_prompt": "Step 2: An illustration of a hand picking up a set of keys and a wallet from a small table by the door. 16:9 aspect ratio, clear."
+        },
+        {
+          "step_number": 3,
+          "description": "Open the door to go outside.",
+          "image_prompt": "Step 3: An illustration of a person opening their front door, with a sunny day visible outside. 16:9 aspect ratio, inviting."
+        }
+      ]
+    },
+    {
+      "id": "ls_25",
+      "scenario_name": "Sorting Laundry",
+      "steps": [
+        {
+          "step_number": 1,
+          "description": "Make a pile for white clothes.",
+          "image_prompt": "Step 1: An illustration of a laundry basket with a pile of white clothes (t-shirts, socks) next to it on the floor. 16:9 aspect ratio, laundry room."
+        },
+        {
+          "step_number": 2,
+          "description": "Make another pile for colored clothes.",
+          "image_prompt": "Step 2: An illustration showing the pile of white clothes, and a new pile of colored clothes (blue jeans, red shirt) forming next to it. 16:9 aspect ratio, clear separation."
+        },
+        {
+          "step_number": 3,
+          "description": "Put one pile into the washing machine.",
+          "image_prompt": "Step 3: An illustration of hands loading the pile of white clothes into the open door of a front-loading washing machine. 16:9 aspect ratio, action shot."
+        }
+      ]
+    },
+    {
+      "id": "ls_26",
+      "scenario_name": "Feeding a Pet",
+      "steps": [
+        {
+          "step_number": 1,
+          "description": "Get the pet's food bowl.",
+          "image_prompt": "Step 1: An illustration of a hand picking up an empty pet food bowl from the floor. 16:9 aspect ratio, kitchen setting."
+        },
+        {
+          "step_number": 2,
+          "description": "Scoop or pour food into the bowl.",
+          "image_prompt": "Step 2: An illustration of dry pet food being scooped from a large bag into the pet food bowl. 16:9 aspect ratio, close-up."
+        },
+        {
+          "step_number": 3,
+          "description": "Place the bowl on the floor for the pet.",
+          "image_prompt": "Step 3: An illustration of a hand placing the full bowl of food on the floor, with a happy cat or dog approaching it. 16:9 aspect ratio, heartwarming."
+        }
+      ]
+    },
+    {
+      "id": "ls_27",
+      "scenario_name": "Charging a Phone",
+      "steps": [
+        {
+          "step_number": 1,
+          "description": "Plug the charger into the wall outlet.",
+          "image_prompt": "Step 1: A close-up illustration of a hand plugging a phone charger block into a wall power outlet. 16:9 aspect ratio, clear."
+        },
+        {
+          "step_number": 2,
+          "description": "Connect the cable to the phone.",
+          "image_prompt": "Step 2: A close-up illustration of a hand guiding the end of the charging cable into the charging port of a smartphone. 16:9 aspect ratio, detailed."
+        },
+        {
+          "step_number": 3,
+          "description": "Check that the phone is charging.",
+          "image_prompt": "Step 3: An illustration of the smartphone screen now showing a large battery icon with a lightning bolt, indicating it is charging. 16:9 aspect ratio, confirmation."
+        }
+      ]
+    },
+    {
+      "id": "ls_28",
+      "scenario_name": "Opening a Can with a Can Opener",
+      "steps": [
+        {
+          "step_number": 1,
+          "description": "Attach the can opener to the can's rim.",
+          "image_prompt": "Step 1: A close-up illustration of a manual can opener being clamped onto the top edge of a tin can. 16:9 aspect ratio, detailed."
+        },
+        {
+          "step_number": 2,
+          "description": "Turn the handle to cut the lid.",
+          "image_prompt": "Step 2: An illustration of a hand turning the handle of the can opener, which is moving along the rim of the can. 16:9 aspect ratio, action shot."
+        },
+        {
+          "step_number": 3,
+          "description": "Lift the lid off carefully.",
+          "image_prompt": "Step 3: An illustration of the can opener lifting the now-cut lid away from the can. 16:9 aspect ratio, successful."
+        }
+      ]
+    },
+    {
+      "id": "ls_29",
+      "scenario_name": "Cleaning Eyeglasses",
+      "steps": [
+        {
+          "step_number": 1,
+          "description": "Spray the lenses with cleaning solution.",
+          "image_prompt": "Step 1: A close-up illustration of a small spray bottle spraying a fine mist onto the lenses of a pair of eyeglasses. 16:9 aspect ratio, clear."
+        },
+        {
+          "step_number": 2,
+          "description": "Wipe the lenses with a microfiber cloth.",
+          "image_prompt": "Step 2: An illustration of the eyeglasses being gently wiped with a soft, clean microfiber cloth. 16:9 aspect ratio, gentle action."
+        },
+        {
+          "step_number": 3,
+          "description": "Check that the lenses are clean and clear.",
+          "image_prompt": "Step 3: An illustration of a person holding the clean glasses up to the light to inspect them for smudges. 16:9 aspect ratio, sparkling clean."
+        }
+      ]
+    },
+    {
+      "id": "ls_30",
+      "scenario_name": "Paying at a Store with a Card",
+      "steps": [
+        {
+          "step_number": 1,
+          "description": "Wait for the cashier to say the total.",
+          "image_prompt": "Step 1: An illustration of a friendly cashier at a checkout counter next to a cash register displaying a total amount. 16:9 aspect ratio, store setting."
+        },
+        {
+          "step_number": 2,
+          "description": "Insert or tap your card on the machine.",
+          "image_prompt": "Step 2: A close-up illustration of a hand tapping a credit card on a contactless payment terminal. 16:9 aspect ratio, modern."
+        },
+        {
+          "step_number": 3,
+          "description": "Take your card and receipt.",
+          "image_prompt": "Step 3: An illustration of a hand taking the credit card back, while the machine prints a small receipt. 16:9 aspect ratio, transaction complete."
+        }
+      ]
+    },
+    {
+      "id": "ls_31",
+      "scenario_name": "Getting Ready for Bed",
+      "steps": [
+        {
+          "step_number": 1,
+          "description": "Change into your pajamas.",
+          "image_prompt": "Step 1: An illustration of a person in a bedroom, putting on a comfortable pajama top. 16:9 aspect ratio, cozy."
+        },
+        {
+          "step_number": 2,
+          "description": "Brush your teeth.",
+          "image_prompt": "Step 2: An illustration of a person standing at a bathroom sink, brushing their teeth. 16:9 aspect ratio, evening routine."
+        },
+        {
+          "step_number": 3,
+          "description": "Get into bed and turn off the light.",
+          "image_prompt": "Step 3: An illustration of a person settled in bed, reaching to turn off a bedside lamp. 16:9 aspect ratio, peaceful."
+        }
+      ]
+    },
+    {
+      "id": "ls_32",
+      "scenario_name": "Shaving with an Electric Razor",
+      "steps": [
+        {
+          "step_number": 1,
+          "description": "Turn the electric razor on.",
+          "image_prompt": "Step 1: A close-up illustration of a thumb pressing the 'on' button of an electric razor, with a buzzing sound icon. 16:9 aspect ratio, clear."
+        },
+        {
+          "step_number": 2,
+          "description": "Move the razor gently over your face.",
+          "image_prompt": "Step 2: An illustration of a person looking in a mirror while moving the electric razor over their cheek. 16:9 aspect ratio, bathroom setting."
+        },
+        {
+          "step_number": 3,
+          "description": "Turn the razor off and clean it.",
+          "image_prompt": "Step 3: An illustration of the razor head being opened and tapped over a sink to clean out the shavings. 16:9 aspect ratio, clean-up."
+        }
+      ]
+    },
+    {
+      "id": "ls_33",
+      "scenario_name": "Making Orange Juice from Concentrate",
+      "steps": [
+        {
+          "step_number": 1,
+          "description": "Pour the frozen concentrate into a pitcher.",
+          "image_prompt": "Step 1: An illustration of frozen orange juice concentrate being spooned from its container into a large glass pitcher. 16:9 aspect ratio, kitchen."
+        },
+        {
+          "step_number": 2,
+          "description": "Add the correct amount of cold water.",
+          "image_prompt": "Step 2: An illustration of a measuring cup being used to pour cold water into the pitcher with the concentrate. 16:9 aspect ratio, precise."
+        },
+        {
+          "step_number": 3,
+          "description": "Stir until it is all mixed.",
+          "image_prompt": "Step 3: An illustration of a long spoon stirring the contents of the pitcher, showing the concentrate dissolving into the water to make orange juice. 16:9 aspect ratio, dynamic."
+        }
+      ]
+    },
+    {
+      "id": "ls_34",
+      "scenario_name": "Unlocking a Smartphone with a Passcode",
+      "steps": [
+        {
+          "step_number": 1,
+          "description": "Press the power button to wake the screen.",
+          "image_prompt": "Step 1: A close-up illustration of a finger pressing the side button of a smartphone, causing the lock screen to light up. 16:9 aspect ratio, clear."
+        },
+        {
+          "step_number": 2,
+          "description": "Swipe up to show the passcode screen.",
+          "image_prompt": "Step 2: An illustration of a finger swiping upwards on the smartphone's lock screen. 16:9 aspect ratio, action shot."
+        },
+        {
+          "step_number": 3,
+          "description": "Enter your passcode numbers.",
+          "image_prompt": "Step 3: An illustration of the passcode screen with a number pad, and a finger tapping in the numbers to unlock the phone. 16:9 aspect ratio, security."
+        }
+      ]
+    }
+  ],
+  "matching_recognition": [
+    {
+      "id": "mr_01",
+      "tts_prompt": "It's very cold and snowing outside. What should we wear to stay warm?",
+      "valid_answers": ["coat", "jacket", "parka"],
+      "fallback_button_correct": "Winter Coat",
+      "fallback_button_incorrect": ["T-shirt", "Shorts", "Sandals"],
+      "image_prompt": "A clear, centered illustration of a thick, warm winter coat on a plain background. The coat is zipped up. 16:9 aspect ratio, studio lighting."
+    },
+    {
+      "id": "mr_02",
+      "tts_prompt": "You need to know what time it is. What should you look for?",
+      "valid_answers": ["clock", "watch", "time"],
+      "fallback_button_correct": "Wall Clock",
+      "fallback_button_incorrect": ["Calendar", "Newspaper", "Radio"],
+      "image_prompt": "A simple, clear illustration of a classic round wall clock with black hands, showing the time 10:10. Plain background. 16:9 aspect ratio."
+    },
+    {
+      "id": "mr_03",
+      "tts_prompt": "You are going to the store to buy something. What do you need to carry your money?",
+      "valid_answers": ["wallet", "purse", "money"],
+      "fallback_button_correct": "Wallet",
+      "fallback_button_incorrect": ["Shopping Bag", "Backpack", "Briefcase"],
+      "image_prompt": "A clear illustration of a classic leather bifold wallet, slightly open to show card slots. Plain background. 16:9 aspect ratio."
+    },
+    {
+      "id": "mr_04",
+      "tts_prompt": "You need to unlock the front door. What do you need?",
+      "valid_answers": ["key", "keys"],
+      "fallback_button_correct": "House Keys",
+      "fallback_button_incorrect": ["Screwdriver", "Credit Card", "Hammer"],
+      "image_prompt": "An illustration of a set of two house keys on a simple metal keyring. Plain background. 16:9 aspect ratio, realistic."
+    },
+    {
+      "id": "mr_05",
+      "tts_prompt": "It's starting to rain. What will keep you dry?",
+      "valid_answers": ["umbrella", "raincoat"],
+      "fallback_button_correct": "Umbrella",
+      "fallback_button_incorrect": ["Sun Hat", "Towel", "Newspaper"],
+      "image_prompt": "A bright, clear illustration of a large, open umbrella. Plain background. 16:9 aspect ratio."
+    },
+    {
+      "id": "mr_06",
+      "tts_prompt": "You have a headache. What might you take to feel better?",
+      "valid_answers": ["medicine", "pills", "aspirin", "painkiller", "tablet"],
+      "fallback_button_correct": "Pain Relief Pills",
+      "fallback_button_incorrect": ["Vitamins", "Cough Drops", "Bandage"],
+      "image_prompt": "An illustration of an open prescription bottle with two white pills next to it on a clean surface. Plain background. 16:9 aspect ratio."
+    },
+    {
+      "id": "mr_07",
+      "tts_prompt": "You want to write a shopping list. What do you need to write with?",
+      "valid_answers": ["pen", "pencil"],
+      "fallback_button_correct": "Pen",
+      "fallback_button_incorrect": ["Crayon", "Marker", "Paintbrush"],
+      "image_prompt": "A simple, elegant illustration of a ballpoint pen. Plain background. 16:9 aspect ratio."
+    },
+    {
+      "id": "mr_08",
+      "tts_prompt": "The print in this book is too small. What can help you see it better?",
+      "valid_answers": ["glasses", "reading glasses", "spectacles"],
+      "fallback_button_correct": "Reading Glasses",
+      "fallback_button_incorrect": ["Magnifying Glass", "Binoculars", "Sunglasses"],
+      "image_prompt": "A clear illustration of a pair of modern reading glasses resting on a surface. Plain background. 16:9 aspect ratio."
+    },
+    {
+      "id": "mr_09",
+      "tts_prompt": "You need to call your family. What should you use?",
+      "valid_answers": ["phone", "telephone", "smartphone"],
+      "fallback_button_correct": "Telephone",
+      "fallback_button_incorrect": ["Television Remote", "Calculator", "Radio"],
+      "image_prompt": "A clear illustration of a modern smartphone with app icons on the screen. Plain background. 16:9 aspect ratio."
+    },
+    {
+      "id": "mr_10",
+      "tts_prompt": "Your feet are cold inside the house. What can you put on them?",
+      "valid_answers": ["slippers", "socks"],
+      "fallback_button_correct": "Slippers",
+      "fallback_button_incorrect": ["Shoes", "Sandals", "Boots"],
+      "image_prompt": "An illustration of a pair of cozy, comfortable-looking slippers. Plain background. 16:9 aspect ratio."
+    },
+    {
+      "id": "mr_11",
+      "tts_prompt": "The power is out and it's dark. What can you use to see?",
+      "valid_answers": ["flashlight", "torch"],
+      "fallback_button_correct": "Flashlight",
+      "fallback_button_incorrect": ["Lamp", "Lightbulb", "Lighter"],
+      "image_prompt": "A clear illustration of a standard handheld flashlight, turned on with a beam of light showing. Plain background. 16:9 aspect ratio."
+    },
+    {
+      "id": "mr_12",
+      "tts_prompt": "You are about to eat a bowl of soup. What utensil do you need?",
+      "valid_answers": ["spoon"],
+      "fallback_button_correct": "Spoon",
+      "fallback_button_incorrect": ["Fork", "Knife", "Chopsticks"],
+      "image_prompt": "A simple, clean illustration of a soup spoon. Plain background. 16:9 aspect ratio."
+    },
+    {
+      "id": "mr_13",
+      "tts_prompt": "You need to cut a piece of meat. What utensil should you use?",
+      "valid_answers": ["knife"],
+      "fallback_button_correct": "Knife",
+      "fallback_button_incorrect": ["Spoon", "Spork", "Scissors"],
+      "image_prompt": "A clear illustration of a dinner knife with a slightly serrated edge. Plain background. 16:9 aspect ratio."
+    },
+    {
+      "id": "mr_14",
+      "tts_prompt": "You are thirsty. What would you drink water from?",
+      "valid_answers": ["glass", "cup", "mug"],
+      "fallback_button_correct": "Glass",
+      "fallback_button_incorrect": ["Bowl", "Plate", "Bottle"],
+      "image_prompt": "A clear illustration of a simple drinking glass, half-full with water. Plain background. 16:9 aspect ratio."
+    },
+    {
+      "id": "mr_15",
+      "tts_prompt": "You spilled some coffee. What should you use to clean it up?",
+      "valid_answers": ["towel", "sponge", "cloth", "paper towel"],
+      "fallback_button_correct": "Paper Towel",
+      "fallback_button_incorrect": ["Napkin", "Handkerchief", "Scarf"],
+      "image_prompt": "An illustration of a roll of paper towels with one sheet partially torn off. Plain background. 16:9 aspect ratio."
+    },
+    {
+      "id": "mr_16",
+      "tts_prompt": "Your hair is messy. What should you use to neaten it?",
+      "valid_answers": ["brush", "comb", "hairbrush"],
+      "fallback_button_correct": "Hairbrush",
+      "fallback_button_incorrect": ["Toothbrush", "Back Scratcher", "Fork"],
+      "image_prompt": "A clear illustration of a standard paddle hairbrush. Plain background. 16:9 aspect ratio."
+    },
+    {
+      "id": "mr_17",
+      "tts_prompt": "It's very bright and sunny outside. What can protect your eyes?",
+      "valid_answers": ["sunglasses", "shades"],
+      "fallback_button_correct": "Sunglasses",
+      "fallback_button_incorrect": ["Reading Glasses", "Hat", "Visor"],
+      "image_prompt": "An illustration of a classic pair of sunglasses. Plain background. 16:9 aspect ratio."
+    },
+    {
+      "id": "mr_18",
+      "tts_prompt": "You need to watch the evening news. What do you turn on?",
+      "valid_answers": ["tv", "television", "telly"],
+      "fallback_button_correct": "Television",
+      "fallback_button_incorrect": ["Radio", "Computer", "Microwave"],
+      "image_prompt": "An illustration of a modern flat-screen television on a stand. The screen is blank. Plain background. 16:9 aspect ratio."
+    },
+    {
+      "id": "mr_19",
+      "tts_prompt": "You want to sit down and rest. What should you look for?",
+      "valid_answers": ["chair", "seat", "sofa", "couch"],
+      "fallback_button_correct": "Chair",
+      "fallback_button_incorrect": ["Table", "Stool", "Bed"],
+      "image_prompt": "A simple, clear illustration of a comfortable wooden armchair with a cushion. Plain background. 16:9 aspect ratio."
+    },
+    {
+      "id": "mr_20",
+      "tts_prompt": "It's time to go to sleep. Where do you sleep?",
+      "valid_answers": ["bed", "bedroom"],
+      "fallback_button_correct": "Bed",
+      "fallback_button_incorrect": ["Sofa", "Armchair", "Floor"],
+      "image_prompt": "An illustration of a neatly made bed with pillows and a comforter. Plain background. 16:9 aspect ratio."
+    },
+    {
+      "id": "mr_21",
+      "tts_prompt": "You need to wash your hands. Besides water, what do you need?",
+      "valid_answers": ["soap"],
+      "fallback_button_correct": "Bar of Soap",
+      "fallback_button_incorrect": ["Shampoo", "Lotion", "Toothpaste"],
+      "image_prompt": "A simple illustration of a bar of soap resting in a soap dish. Plain background. 16:9 aspect ratio."
+    },
+    {
+      "id": "mr_22",
+      "tts_prompt": "You just finished a shower. What do you use to dry yourself?",
+      "valid_answers": ["towel"],
+      "fallback_button_correct": "Towel",
+      "fallback_button_incorrect": ["Blanket", "Sheet", "Robe"],
+      "image_prompt": "An illustration of a large, fluffy bath towel folded neatly. Plain background. 16:9 aspect ratio."
+    },
+    {
+      "id": "mr_23",
+      "tts_prompt": "You want to eat cereal. What do you put it in?",
+      "valid_answers": ["bowl"],
+      "fallback_button_correct": "Bowl",
+      "fallback_button_incorrect": ["Plate", "Cup", "Saucer"],
+      "image_prompt": "A clear illustration of an empty ceramic cereal bowl. Plain background. 16:9 aspect ratio."
+    },
+    {
+      "id": "mr_24",
+      "tts_prompt": "You need to cook dinner. What appliance would you use?",
+      "valid_answers": ["stove", "oven", "cooker"],
+      "fallback_button_correct": "Stove",
+      "fallback_button_incorrect": ["Microwave", "Toaster", "Refrigerator"],
+      "image_prompt": "An illustration of a clean, modern four-burner stove and oven range. Plain background. 16:9 aspect ratio."
+    },
+    {
+      "id": "mr_25",
+      "tts_prompt": "You need to check your appearance. What do you look into?",
+      "valid_answers": ["mirror"],
+      "fallback_button_correct": "Mirror",
+      "fallback_button_incorrect": ["Window", "Photograph", "Painting"],
+      "image_prompt": "An illustration of a simple, clean wall mirror with a thin frame. Plain background. 16:9 aspect ratio."
+    },
+    {
+      "id": "mr_26",
+      "tts_prompt": "You want to listen to music privately. What do you wear on your ears?",
+      "valid_answers": ["headphones", "earphones"],
+      "fallback_button_correct": "Headphones",
+      "fallback_button_incorrect": ["Earmuffs", "Hearing Aids", "Hat"],
+      "image_prompt": "An illustration of a pair of modern, over-ear wireless headphones. Plain background. 16:9 aspect ratio."
+    },
+    {
+      "id": "mr_27",
+      "tts_prompt": "You need to pay for something at a store. What plastic card can you use?",
+      "valid_answers": ["credit card", "debit card", "bank card"],
+      "fallback_button_correct": "Credit Card",
+      "fallback_button_incorrect": ["Library Card", "Driver's License", "Gift Card"],
+      "image_prompt": "An illustration of a generic credit card with a chip and magnetic stripe. No numbers or names are visible. Plain background. 16:9 aspect ratio."
+    },
+    {
+      "id": "mr_28",
+      "tts_prompt": "You are going on a trip and need to pack your clothes. What do you put them in?",
+      "valid_answers": ["suitcase", "bag"],
+      "fallback_button_correct": "Suitcase",
+      "fallback_button_incorrect": ["Cardboard Box", "Laundry Basket", "Dresser Drawer"],
+      "image_prompt": "An illustration of a rolling suitcase with the handle extended. Plain background. 16:9 aspect ratio."
+    },
+    {
+      "id": "mr_29",
+      "tts_prompt": "You need to eat your salad. What utensil is best for this?",
+      "valid_answers": ["fork"],
+      "fallback_button_correct": "Fork",
+      "fallback_button_incorrect": ["Spoon", "Knife", "Tongs"],
+      "image_prompt": "A simple, clean illustration of a dinner fork. Plain background. 16:9 aspect ratio."
+    },
+    {
+      "id": "mr_30",
+      "tts_prompt": "You need to find out today's date. What should you look at?",
+      "valid_answers": ["calendar"],
+      "fallback_button_correct": "Calendar",
+      "fallback_button_incorrect": ["Clock", "Diary", "Newspaper"],
+      "image_prompt": "An illustration of a simple wall or desk calendar, showing a single month with days and dates. Plain background. 16:9 aspect ratio."
+    },
+    {
+      "id": "mr_31",
+      "tts_prompt": "Let's look at a family photo. Who is this?",
+      "valid_answers": ["daughter", "[CUSTOM_DAUGHTER_NAME]"],
+      "fallback_button_correct": "[CUSTOM_DAUGHTER_NAME]",
+      "fallback_button_incorrect": ["Neighbor", "Doctor", "Cashier"],
+      "image_prompt": "A template image for a custom photo upload. A friendly, smiling portrait of a woman. The background is blurred. The text 'Custom Photo Here' is overlaid. 16:9 aspect ratio."
+    },
+    {
+      "id": "mr_32",
+      "tts_prompt": "Here is another important person. Who is this?",
+      "valid_answers": ["son", "grandson", "[CUSTOM_SON_NAME]"],
+      "fallback_button_correct": "[CUSTOM_SON_NAME]",
+      "fallback_button_incorrect": ["Mail Carrier", "Plumber", "Friend"],
+      "image_prompt": "A template image for a custom photo upload. A friendly, smiling portrait of a man. The background is blurred. The text 'Custom Photo Here' is overlaid. 16:9 aspect ratio."
+    },
+    {
+      "id": "mr_33",
+      "tts_prompt": "And who is this person who helps you?",
+      "valid_answers": ["caregiver", "helper", "nurse", "[CUSTOM_CAREGIVER_NAME]"],
+      "fallback_button_correct": "[CUSTOM_CAREGIVER_NAME]",
+      "fallback_button_incorrect": ["Driver", "Chef", "Gardener"],
+      "image_prompt": "A template image for a custom photo upload. A friendly, smiling portrait of a person in casual, neat clothing. The background is blurred. The text 'Custom Photo Here' is overlaid. 16:9 aspect ratio."
+    }
+  ]
+}

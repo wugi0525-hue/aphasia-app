@@ -1,0 +1,19 @@
+{"users": [
+{
+  "localId": "REHs6zcvmtZcj2yj3OKOBYVmi4f2",
+  "email": "wugi0525@gmail.com",
+  "emailVerified": true,
+  "displayName": "김민욱",
+  "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJxaemkcVFX7V0T50ajxmf_rbpIwx2E5S-9xzHdDDES0MWXyEY=s96-c",
+  "lastSignedInAt": "1771663830693",
+  "createdAt": "1771663700148",
+  "providerUserInfo": [
+    {
+      "providerId": "google.com",
+      "rawId": "114902370465565291642",
+      "email": "wugi0525@gmail.com",
+      "displayName": "김민욱",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJxaemkcVFX7V0T50ajxmf_rbpIwx2E5S-9xzHdDDES0MWXyEY=s96-c"
+    }
+  ]
+}]}

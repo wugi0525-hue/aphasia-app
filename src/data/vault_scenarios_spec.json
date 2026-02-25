@@ -1,0 +1,88 @@
+[
+    {
+        "scenario_id": "cafe_01",
+        "theme": "Stage 5: Functional Discourse (Cafe)",
+        "title": "카페 주문하기",
+        "description": "커피와 물을 주문하고 카드로 결제하는 실전 상황극",
+        "is_free_teaser": true,
+        "total_steps": 3,
+        "steps": [
+            {
+                "step_index": 1,
+                "npc_dialogue": "주문하시겠어요?",
+                "target_word": "아메리카노",
+                "display_text": "아메리카노",
+                "audio_cue": "아메리카노",
+                "hint_semantic": "가장 기본이 되는 블랙 커피입니다.",
+                "hint_sentence": "따뜻한 ___ 한 잔 주세요.",
+                "target_image_prompt": "A friendly cafe barista standing behind a counter, looking forward waiting for an order. Brightly lit, photorealistic, true to life colors. Not a cartoon.",
+                "asset_file_name": "vault_cafe_01_step1.png"
+            },
+            {
+                "step_index": 2,
+                "npc_dialogue": "따뜻하게 드릴까요?",
+                "target_word": "아이스로 주세요",
+                "display_text": "아이스로 주세요",
+                "audio_cue": "아이스로 주세요",
+                "hint_semantic": "차가운 얼음을 넣어달라는 요청입니다.",
+                "hint_sentence": "너무 더우니 시원하게 ___.",
+                "target_image_prompt": "A close up of a clear plastic cup filled with ice cubes on a cafe counter. Brightly lit, photorealistic, true to life colors. Not a cartoon.",
+                "asset_file_name": "vault_cafe_01_step2.png"
+            },
+            {
+                "step_index": 3,
+                "npc_dialogue": "결제 도와드릴게요.",
+                "target_word": "여기 카드요",
+                "display_text": "여기 카드요",
+                "audio_cue": "여기 카드요",
+                "hint_semantic": "현금이 아닌 플라스틱 칩으로 계산할 때 쓰는 물건입니다.",
+                "hint_sentence": "현금이 없으니 계산은 ___.",
+                "target_image_prompt": "A hand holding out a credit card towards a payment terminal. Brightly lit, photorealistic, true to life colors. Not a cartoon.",
+                "asset_file_name": "vault_cafe_01_step3.png"
+            }
+        ]
+    },
+    {
+        "scenario_id": "hospital_01",
+        "theme": "Stage 6: Functional Discourse (Hospital)",
+        "title": "병원 접수하기",
+        "description": "원무과 접수처에서 증상을 말하고 대기하는 상황극",
+        "is_free_teaser": false,
+        "total_steps": 3,
+        "steps": [
+            {
+                "step_index": 1,
+                "npc_dialogue": "어떻게 오셨나요?",
+                "target_word": "머리가 아파요",
+                "display_text": "머리가 아파요",
+                "audio_cue": "머리가 아파요",
+                "hint_semantic": "머리에 통증이 있다는 뜻입니다.",
+                "hint_sentence": "어제부터 열이 나고 ___.",
+                "target_image_prompt": "A hospital receptionist at a desk looking forward asking a question. Brightly lit, photorealistic, true to life colors. Not a cartoon.",
+                "asset_file_name": "vault_hospital_01_step1.png"
+            },
+            {
+                "step_index": 2,
+                "npc_dialogue": "처음 방문하셨나요?",
+                "target_word": "네 처음이에요",
+                "display_text": "네 처음이에요",
+                "audio_cue": "네 처음이에요",
+                "hint_semantic": "이 병원에 방문한 것이 최초라는 긍정의 대답입니다.",
+                "hint_sentence": "네, 이 병원에 오는 건 ___.",
+                "target_image_prompt": "A close up of a medical clipboard with a blank form and a pen on a counter. Brightly lit, photorealistic, true to life colors. Not a cartoon.",
+                "asset_file_name": "vault_hospital_01_step2.png"
+            },
+            {
+                "step_index": 3,
+                "npc_dialogue": "신분증 주시겠어요?",
+                "target_word": "여기 있어요",
+                "display_text": "여기 있어요",
+                "audio_cue": "여기 있어요",
+                "hint_semantic": "물건을 건네주며 하는 말입니다.",
+                "hint_sentence": "네, 제 운전면허증 ___.",
+                "target_image_prompt": "A hand holding out an ID card. Brightly lit, photorealistic, true to life colors. Not a cartoon.",
+                "asset_file_name": "vault_hospital_01_step3.png"
+            }
+        ]
+    }
+]
